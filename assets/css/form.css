@@ -1,0 +1,65 @@
+input, textarea, button {
+    font-family: sans-serif;
+    font-size: 1em;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.grupo:before, .grupo:after {
+    display: table;
+}
+
+.grupo:after {
+    clear: both;
+}
+
+.campo {
+    margin-bottom: 1em;
+}
+
+.campo label {
+    margin-bottom: 0.2em;
+    color: black;
+    display: block;
+}
+
+fieldset.grupo .campo {
+    float: left;
+    margin-right: 1em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo textarea {
+    padding: 5px;
+    border: 1px solid;
+    display: block;
+    border-radius: 10px;
+}
+
+.campo input[type="text"]:focus {
+    border-color: white;
+}
+
+main.content .button button {
+    padding: 15px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    border-color: none;
+}
+
+fieldset,
+textarea {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    margin-bottom: 30px;
+}
+
